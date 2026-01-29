@@ -18,7 +18,7 @@ The goal is simple: **understand deeply, implement cleanly, document clearly.**
 ```
 design-patterns/-
 │
-├── 📂 src/main/java/com/patterns/
+├── 📂 src/
 │   ├── 📂 creational/
 │   │   ├── singleton/
 │   │   ├── factory/
@@ -48,8 +48,7 @@ design-patterns/-
 │       ├── templatemethod/
 │       └── visitor/
 │
-├── 📂 src/test/java/com/patterns/
-│   └── [corresponding test packages]
+├
 │
 ├── 📂 resources/
 │   ├── diagrams/
@@ -58,7 +57,7 @@ design-patterns/-
 ├── 📂 examples/
 │   └── integrated-scenarios/
 │
-├── pom.xml (or build.gradle)
+├
 ├── README.md          # You are here
 └── .gitignore
 ```
@@ -83,23 +82,8 @@ Each pattern will follow this consistent structure:
 
 ## Technology Stack
 
-- **Language:** Java 11+
-- **Build Tool:** Maven / Gradle
-- **Documentation:** Markdown with UML diagrams
-
----
-
-## 📚 Pattern Categories
-
-### **Creational Patterns** *(In Progress)*
-Focus on object creation mechanisms, trying to create objects in a manner suitable to the situation.
-
-### **Structural Patterns** *(Planned)*
-Concerned with how classes and objects are composed to form larger structures.
-
-### **Behavioral Patterns** *(Planned)*
-Deal with object collaboration and the assignment of responsibilities.
-
+- **Language:** Java 17+
+- **Documentation:** Markdown with UML diagrams & Notes
 ---
 
 ## 🚀 Getting Started
